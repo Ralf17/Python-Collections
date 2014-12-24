@@ -44,3 +44,6 @@ class FrameSecond(wx.Frame):
 #        event.Skip()
         self.parent.Show()
         self.Hide()
+        
+        
+        ex6zKCyj
