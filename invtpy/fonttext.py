@@ -1,8 +1,7 @@
-import pygame, sys, pdb
+import pygame, sys
 from pygame.locals import *
 
 pygame.init()
-pdb.set_trace()
 DISPLAYSURF = pygame.display.set_mode((100, 50))
 pygame.display.set_caption('Hello World!')
 
@@ -11,7 +10,7 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 128)
 
 fontObj = pygame.font.Font('freesansbold.ttf', 32)
-textSurfaceObj = fontObj.render('Check', True, GREEN, BLUE)
+textSurfaceObj = fontObj.render('Check', True, BLUE, WHITE)
 textRectObj = textSurfaceObj.get_rect()
 textRectObj.center = (50, 25)
 
